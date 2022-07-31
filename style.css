@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,700&display=swap');
+
 * {
     padding: 0;
     margin: 0;
@@ -11,11 +13,13 @@ body {
 .conteudo {
     margin-top: 150px;
     margin-left: 200px;
+    width: 1000px;
 }
 
 .titulo {
-    font-size: 30px;
-    font-weight: 700;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 35px;
+    font-weight: 900;
 }
 
 h1 {
@@ -32,7 +36,7 @@ h1 {
 }
 
 .div-conteudo {
-    margin-left: 12px;
+    width: 1000px;
 }
 
 .conteudo-principal-titulo {
@@ -75,4 +79,3 @@ h1 {
     margin-top: -450px;
     width: 85vh;
 }
-
